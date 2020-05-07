@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <h2>Game Quiz!!</h2>
+            <p>How Much Do You Know About Covid-19</p>
+        </div>
+        <div class="question">
+    
+        </div>
+        <div class="options">
+            <div class="one opt" id="0" onclick="checkAnswer(this)"></div>
+            <div class="two opt" id="1" onclick="checkAnswer(this)"></div>
+            <div class="three opt" id="2" onclick="checkAnswer(this)"></div>
+            <div  class="four opt" id="3" onclick="checkAnswer(this)"></div>
+        </div>
+        <div id = "bottom">
+            <div id="btn"><button>NEXT</button></div>
+            <div class= "counter"><span class="spancount"></span>/ <span class="spantotal"></span></div>
+        </div>
+       
+        <div class="the-end">
+            <div class="quiz-end">
+                <h3>Stay Safe!!</h3>
+            Your Score: <span class="scoreboard"></span><br>
+            <button class="play">Play Again</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
